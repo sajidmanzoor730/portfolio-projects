@@ -1,21 +1,35 @@
 # CRM Data Quality & Cleanup
 
-## Purpose
-A demonstration of how CRM records can be reviewed and cleaned before being used for reporting or growth operations.
+A practical view of CRM normalization, duplicate review, missing-field checks, enrichment and data-quality follow-up.
 
-## What it demonstrates
-- Field normalization
+## Overview
+
+- Reviewed 120 CRM records for data quality issues
+- Identified clean vs problematic records
+- Standardized and corrected fields
+
+## What I Did
+
 - Duplicate identification
-- Missing-data review
-- Record enrichment
-- Data-quality checks
-- Before/after validation
+- Missing-data review (email, company, phone)
+- Field normalization and standardization
+- Data-quality reporting
+- Follow-up status tracking
 
 ## Tools
-CRM concepts, Excel, SQL concepts
+
+Excel
 
 ## Data
-Fictional demonstration data.
+
+Fictional demonstration data. Portfolio dataset uses synthetic records for demonstration and interaction testing. No real customer data is used.
 
 ## Documentation
-See `files/02_CRM_Data_Cleanup_Project.docx`.
+
+See `files/02_CRM-Data_Cleanup_Project.docx` for detailed cleanup workflow and logic.
+
+## File
+
+[Download Excel File](../files/Sajid_CRM_Data_Quality.xlsx)
+
+[Download Cleanup Project Doc](../files/02_CRM-Data_Cleanup_Project.docx)
