@@ -30,6 +30,10 @@ See `files/02_CRM-Data_Cleanup_Project.docx` for detailed cleanup workflow and l
 
 ## File
 
+[Download Excel File](../files/Sajid_Operations_Portfolio.xlsx)
+
+[Download Cleanup Project Doc](../files/02_CRM_Data_Cleanup_Project.docx)
+
 [Download Excel File](https://github.com/sajidmanzoor730/portfolio-projects/raw/main/files/Sajid_CRM_Data_Quality.xlsx)
 
 [Download Cleanup Project Doc](https://github.com/sajidmanzoor730/portfolio-projects/raw/main/files/02_CRM-Data_Cleanup_Project.docx)
