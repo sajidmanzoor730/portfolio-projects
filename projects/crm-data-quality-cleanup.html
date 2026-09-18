@@ -50,3 +50,15 @@ let f=DATA.filter(r=>(!q||Object.values(r).join(' ').toLowerCase().includes(q))&
 body.innerHTML=f.map(r=>'<tr><td>'+r.id+'</td><td>'+r.contact+'</td><td>'+(r.company||'—')+'</td><td>'+r.stage+'</td><td>'+r.owner+'</td><td>'+badge(r.issue)+'</td><td>'+badge(r.status)+'</td></tr>').join('')||'<tr><td colspan="7">No matching records.</td></tr>'}
 search.oninput=render;issue.onchange=render;status.onchange=render;render();
 </script></body></html>
+<a href="../files/Sajid_CRM_Data_Quality.xlsx"
+   target="_blank"
+   download
+   style="display:inline-block;
+          padding:10px 15px;
+          background:#10233f;
+          color:#fff;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:700;">
+  Download CRM Excel File
+</a>
