@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Executive Operations Dashboard | Sajid Manzoor</title>
+<style>
+:root{--navy:#10233f;--blue:#2563eb;--sky:#eff6ff;--text:#172033;--muted:#64748b;--line:#e2e8f0;--bg:#f8fafc;--white:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+.wrap{width:min(1180px,calc(100% - 32px));margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);padding:18px 0;position:sticky;top:0;z-index:10}
+.head{display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-weight:800;color:var(--navy)}.back{color:var(--blue);font-size:14px;font-weight:700}
+main{padding:42px 0 70px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--blue);font-weight:800}
+h1{font-size:clamp(32px,5vw,50px);line-height:1.1;color:var(--navy);margin:8px 0}.intro{color:var(--muted);max-width:760px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0}.kpi,.panel{background:#fff;border:1px solid var(--line);border-radius:14px}.kpi{padding:20px}.kpi span{display:block;color:var(--muted);font-size:13px}.kpi strong{display:block;font-size:29px;color:var(--navy);margin-top:3px}
+.grid{display:grid;grid-template-columns:1.4fr 1fr;gap:18px}.panel{padding:22px;margin-bottom:18px}.panel h2{font-size:18px;color:var(--navy);margin:0 0 16px}
+.chart{height:230px;display:flex;align-items:flex-end;gap:10px;border-bottom:1px solid var(--line);padding:12px 5px 0}.barwrap{flex:1;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px}.bar{width:min(38px,70%);border-radius:6px 6px 0 0;background:var(--blue);min-height:4px}.barwrap small{font-size:10px;color:var(--muted);white-space:nowrap}.barwrap b{font-size:10px;color:var(--navy)}
+.progress{height:8px;background:#eef2f7;border-radius:99px;overflow:hidden}.fill{height:100%;background:var(--blue);border-radius:99px}
+.metric{margin:14px 0}.metricline{display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px}
+.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:11px 9px;border-bottom:1px solid var(--line);white-space:nowrap}th{color:var(--muted);font-weight:700;background:#fbfcfe}
+.badge{display:inline-block;border-radius:99px;padding:4px 8px;font-size:11px;font-weight:700}.high{background:#fff1f2;color:#be123c}.medium{background:#fff7ed;color:#c2410c}.low{background:#f0fdf4;color:#15803d}.completed{background:#eff6ff;color:#1d4ed8}.pending{background:#f8fafc;color:#475569}.progress-status{background:#fefce8;color:#a16207}.overdue{background:#fff1f2;color:#be123c}
+.filters{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:15px}.filters select,.filters input{padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--text)}
+.note{font-size:12px;color:var(--muted);margin-top:12px}.footer{padding:28px 0;border-top:1px solid var(--line);background:#fff;color:var(--muted);font-size:13px}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}@media(max-width:500px){.kpis{grid-template-columns:1fr 1fr}.kpi strong{font-size:23px}.wrap{width:min(100% - 22px,1180px)}}
+</style>
+</head>
+<body>
+<header><div class="wrap head"><div class="brand">Sajid Manzoor · Operations Portfolio</div><a class="back" href="../projects.html">← Back to Projects</a></div></header>
+<main><div class="wrap">
+<div class="eyebrow">Operations reporting</div>
+<h1>Executive Operations Dashboard</h1>
+<p class="intro">A structured operational view for tracking meetings, priorities, action items, owners, deadlines and follow-ups. The dashboard is powered by a self-contained portfolio dataset.</p>
+
+<div class="kpis">
+<div class="kpi"><span>Total Actions</span><strong id="total">—</strong></div>
+<div class="kpi"><span>Completed</span><strong id="completed">—</strong></div>
+<div class="kpi"><span>Completion Rate</span><strong id="rate">—</strong></div>
+<div class="kpi"><span>Overdue</span><strong id="overdue">—</strong></div>
+</div>
+
+<div class="grid">
+<section class="panel"><h2>Monthly Activity</h2><div id="chart" class="chart"></div></section>
+<section class="panel"><h2>Operational Status</h2><div id="status"></div></section>
+</div>
+
+<section class="panel"><h2>Owner Workload</h2><div id="owners"></div></section>
+
+<section class="panel">
+<h2>Action Items</h2>
+<div class="filters">
+<input id="search" placeholder="Search action, ID or owner">
+<select id="statusFilter"><option value="">All statuses</option><option>Completed</option><option>In Progress</option><option>Pending</option><option>Overdue</option></select>
+<select id="priorityFilter"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Low</option></select>
+</div>
+<div class="table-wrap"><table><thead><tr><th>ID</th><th>Date</th><th>Action</th><th>Owner</th><th>Priority</th><th>Status</th><th>Due</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="note">Portfolio dataset: synthetic records created for demonstration and interaction testing.</div>
+</section>
+</div></main>
+<footer class="footer"><div class="wrap">© 2026 Sajid Manzoor · Executive Operations Dashboard</div></footer>
+
+<script>
+const DATA = [
+["OPS-0001","2026-01-05","Executive Meeting","Review open action items","Aarav Mehta","Medium","Completed","2026-01-07"],
+["OPS-0002","2026-01-08","Client Follow-up","Confirm client requirements","Priya Shah","High","Completed","2026-01-10"],
+["OPS-0003","2026-01-12","Internal Review","Update project tracker","Daniel Reed","Medium","In Progress","2026-01-15"],
+["OPS-0004","2026-01-17","Planning","Prepare KPI summary","Maya Singh","Low","Completed","2026-01-22"],
+["OPS-0005","2026-01-21","Escalation","Resolve pending approval","Owen Carter","High","Overdue","2026-01-23"],
+["OPS-0006","2026-01-28","Reporting","Send weekly status update","Nina Patel","Medium","Completed","2026-01-30"],
+["OPS-0007","2026-02-03","Executive Meeting","Share meeting notes","Aarav Mehta","Low","Completed","2026-02-05"],
+["OPS-0008","2026-02-09","Client Follow-up","Schedule stakeholder follow-up","Priya Shah","High","Pending","2026-02-12"],
+["OPS-0009","2026-02-14","Internal Review","Review open action items","Daniel Reed","Medium","Completed","2026-02-17"],
+["OPS-0010","2026-02-19","Planning","Update project tracker","Maya Singh","Medium","In Progress","2026-02-22"],
+["OPS-0011","2026-02-25","Reporting","Prepare KPI summary","Owen Carter","Low","Completed","2026-02-27"],
+["OPS-0012","2026-03-02","Escalation","Resolve pending approval","Nina Patel","High","Completed","2026-03-05"],
+["OPS-0013","2026-03-08","Executive Meeting","Send weekly status update","Aarav Mehta","Medium","Pending","2026-03-10"],
+["OPS-0014","2026-03-14","Client Follow-up","Confirm client requirements","Priya Shah","High","Completed","2026-03-17"],
+["OPS-0015","2026-03-20","Internal Review","Review open action items","Daniel Reed","Medium","Completed","2026-03-24"],
+["OPS-0016","2026-03-27","Planning","Schedule stakeholder follow-up","Maya Singh","Low","In Progress","2026-03-30"],
+["OPS-0017","2026-04-03","Reporting","Share meeting notes","Owen Carter","Medium","Completed","2026-04-05"],
+["OPS-0018","2026-04-09","Escalation","Resolve pending approval","Nina Patel","High","Pending","2026-04-12"],
+["OPS-0019","2026-04-15","Executive Meeting","Prepare KPI summary","Aarav Mehta","Medium","Completed","2026-04-18"],
+["OPS-0020","2026-04-22","Client Follow-up","Schedule stakeholder follow-up","Priya Shah","High","Overdue","2026-04-24"],
+["OPS-0021","2026-05-01","Internal Review","Update project tracker","Daniel Reed","Medium","Completed","2026-05-04"],
+["OPS-0022","2026-05-08","Planning","Send weekly status update","Maya Singh","Low","Completed","2026-05-11"],
+["OPS-0023","2026-05-16","Reporting","Prepare KPI summary","Owen Carter","Medium","In Progress","2026-05-20"],
+["OPS-0024","2026-05-24","Escalation","Confirm client requirements","Nina Patel","High","Completed","2026-05-27"],
+["OPS-0025","2026-06-02","Executive Meeting","Review open action items","Aarav Mehta","Medium","Completed","2026-06-05"],
+["OPS-0026","2026-06-10","Client Follow-up","Share meeting notes","Priya Shah","High","Pending","2026-06-13"],
+["OPS-0027","2026-06-18","Internal Review","Update project tracker","Daniel Reed","Medium","Completed","2026-06-21"],
+["OPS-0028","2026-06-27","Planning","Prepare KPI summary","Maya Singh","Low","Completed","2026-07-01"],
+["OPS-0029","2026-07-05","Reporting","Send weekly status update","Owen Carter","Medium","In Progress","2026-07-08"],
+["OPS-0030","2026-07-14","Escalation","Resolve pending approval","Nina Patel","High","Completed","2026-07-17"],
+["OPS-0031","2026-07-22","Executive Meeting","Schedule stakeholder follow-up","Aarav Mehta","Medium","Completed","2026-07-25"],
+["OPS-0032","2026-08-01","Client Follow-up","Confirm client requirements","Priya Shah","High","Pending","2026-08-04"],
+["OPS-0033","2026-08-09","Internal Review","Review open action items","Daniel Reed","Medium","Completed","2026-08-12"],
+["OPS-0034","2026-08-17","Planning","Update project tracker","Maya Singh","Low","Completed","2026-08-20"],
+["OPS-0035","2026-08-26","Reporting","Prepare KPI summary","Owen Carter","Medium","In Progress","2026-08-29"],
+["OPS-0036","2026-09-02","Escalation","Resolve pending approval","Nina Patel","High","Overdue","2026-09-04"],
+["OPS-0037","2026-09-08","Executive Meeting","Share meeting notes","Aarav Mehta","Medium","Completed","2026-09-10"],
+["OPS-0038","2026-09-12","Client Follow-up","Schedule stakeholder follow-up","Priya Shah","High","Pending","2026-09-15"],
+["OPS-0039","2026-09-15","Internal Review","Send weekly status update","Daniel Reed","Medium","In Progress","2026-09-18"],
+["OPS-0040","2026-09-17","Planning","Review open action items","Maya Singh","Low","Completed","2026-09-18"]
+];
+
+const expanded=[];
+for(let i=0;i<6;i++) DATA.forEach((r,j)=>{let x=[...r];x[0]=`OPS-${String(i*40+j+1).padStart(4,"0")}`;x[1]=new Date(r[1]);x[7]=new Date(r[7]);expanded.push(x)});
+const data=expanded;
+
+function fmt(d){return new Date(d).toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}
+function render(){
+document.getElementById("total").textContent=data.length.toLocaleString();
+const done=data.filter(x=>x[6]=="Completed").length;
+document.getElementById("completed").textContent=done.toLocaleString();
+document.getElementById("rate").textContent=(done/data.length*100).toFixed(1)+"%";
+document.getElementById("overdue").textContent=data.filter(x=>x[6]=="Overdue").length.toLocaleString();
+
+const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep"], counts=months.map(m=>data.filter(x=>x[1].toLocaleString("en",{month:"short"})==m).length), max=Math.max(...counts);
+document.getElementById("chart").innerHTML=counts.map((v,i)=>`<div class="barwrap"><b>${v}</b><div class="bar" style="height:${Math.max(5,v/max*82)}%"></div><small>${months[i]}</small></div>`).join("");
+
+const statuses=["Completed","In Progress","Pending","Overdue"];
+document.getElementById("status").innerHTML=statuses.map(s=>{let n=data.filter(x=>x[6]==s).length;return `<div class="metric"><div class="metricline"><span>${s}</span><b>${n} · ${(n/data.length*100).toFixed(1)}%</b></div><div class="progress"><div class="fill" style="width:${n/data.length*100}%"></div></div></div>`}).join("");
+
+const owners=[...new Set(data.map(x=>x[4]))];
+document.getElementById("owners").innerHTML=owners.map(o=>{let a=data.filter(x=>x[4]==o),d=a.filter(x=>x[6]=="Completed").length;return `<div class="metric"><div class="metricline"><span>${o}</span><b>${a.length} actions · ${(d/a.length*100).toFixed(0)}% complete</b></div><div class="progress"><div class="fill" style="width:${d/a.length*100}%"></div></div></div>`}).join("");
+filterRows();
+}
+function filterRows(){
+let q=document.getElementById("search").value.toLowerCase(),s=document.getElementById("statusFilter").value,p=document.getElementById("priorityFilter").value;
+let rows=data.filter(x=>(!q||x.join(" ").toLowerCase().includes(q))&&(!s||x[6]==s)&&(!p||x[5]==p)).slice(0,100);
+document.getElementById("rows").innerHTML=rows.map(x=>`<tr><td>${x[0]}</td><td>${fmt(x[1])}</td><td>${x[3]}</td><td>${x[4]}</td><td><span class="badge ${x[5].toLowerCase()}">${x[5]}</span></td><td><span class="badge ${x[6].toLowerCase().replace(" ","-")}">${x[6]}</span></td><td>${fmt(x[7])}</td></tr>`).join("");
+}
+["search","statusFilter","priorityFilter"].forEach(id=>document.getElementById(id).addEventListener("input",filterRows));
+render();
+</script>
+</body>
+</html>
