@@ -18,4 +18,13 @@ Excel
 Fictional demonstration data.
 
 ## File
-See `files/Sajid_Operations_Portfolio.xlsx`
+<a href="../files/Sajid_Operations_Portfolio.xlsx"
+  target="_blank"
+  download
+  style="display:inline-block;
+  padding:10px 15px;
+  background:#10233f;color:#fff;border-radius:8px;
+  text-decoration:none;
+  font-weight:700;">
+    Download Excel File
+</a>
