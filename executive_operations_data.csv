@@ -1,0 +1,251 @@
+Action ID,Created Date,Meeting / Activity,Action Item,Owner,Priority,Status,Due Date,Completed Date,Channel,Follow-up Required,Notes
+OPS-0001,2026-01-06,Internal Review,Update project tracker,Owen Carter,Low,Completed,2026-01-13,2026-01-11,Teams,Yes,Requires management visibility
+OPS-0002,2026-01-07,Escalation,Schedule stakeholder follow-up,Nina Patel,High,Completed,2026-01-10,2026-01-08,Email,No,Awaiting stakeholder confirmation
+OPS-0003,2026-01-07,Internal Review,Share meeting notes,Owen Carter,Low,Completed,2026-01-17,2026-01-15,Teams,No,Follow-up added to weekly review
+OPS-0004,2026-01-10,Internal Review,Update project tracker,Nina Patel,Low,Completed,2026-01-20,2026-01-18,Teams,No,Requires management visibility
+OPS-0005,2026-01-11,Escalation,Send weekly status update,Maya Singh,High,Completed,2026-01-13,2026-01-12,Phone,No,Requires management visibility
+OPS-0006,2026-01-12,Internal Review,Schedule stakeholder follow-up,Daniel Reed,Medium,Completed,2026-01-17,2026-01-17,Google Meet,Yes,Completed within target
+OPS-0007,2026-01-13,Executive Meeting,Update project tracker,Priya Shah,Medium,In Progress,2026-01-23,,Teams,Yes,Awaiting stakeholder confirmation
+OPS-0008,2026-01-13,Reporting,Resolve pending approval,Owen Carter,Medium,In Progress,2026-01-20,,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0009,2026-01-14,Client Follow-up,Share meeting notes,Daniel Reed,Medium,Completed,2026-01-15,2026-01-15,Google Meet,No,Requires management visibility
+OPS-0010,2026-01-15,Internal Review,Confirm client requirements,Priya Shah,Medium,Overdue,2026-01-25,,Phone,No,Requires management visibility
+OPS-0011,2026-01-15,Reporting,Share meeting notes,Nina Patel,Low,Completed,2026-01-17,2026-01-16,Email,No,Awaiting stakeholder confirmation
+OPS-0012,2026-01-15,Escalation,Review open action items,Owen Carter,High,Completed,2026-01-18,2026-01-16,Google Meet,Yes,Completed within target
+OPS-0013,2026-01-17,Escalation,Schedule stakeholder follow-up,Maya Singh,Medium,Completed,2026-01-20,2026-01-18,Phone,No,Completed within target
+OPS-0014,2026-01-18,Escalation,Prepare KPI summary,Daniel Reed,Medium,Pending,2026-01-21,,Email,Yes,No blockers reported
+OPS-0015,2026-01-21,Internal Review,Share meeting notes,Aarav Mehta,High,In Progress,2026-01-22,,Google Meet,No,Follow-up added to weekly review
+OPS-0016,2026-01-24,Executive Meeting,Resolve pending approval,Owen Carter,Low,Completed,2026-01-31,2026-01-30,Email,Yes,Completed within target
+OPS-0017,2026-01-25,Internal Review,Resolve pending approval,Aarav Mehta,Medium,Completed,2026-01-26,2026-01-26,Teams,No,No blockers reported
+OPS-0018,2026-01-26,Internal Review,Send weekly status update,Owen Carter,Low,Completed,2026-02-02,2026-02-01,Google Meet,No,Requires management visibility
+OPS-0019,2026-01-27,Internal Review,Share meeting notes,Aarav Mehta,Medium,Completed,2026-02-06,2026-02-04,Teams,No,No blockers reported
+OPS-0020,2026-01-27,Client Follow-up,Resolve pending approval,Maya Singh,Medium,Completed,2026-02-03,2026-02-01,Teams,No,Next review scheduled
+OPS-0021,2026-01-27,Client Follow-up,Share meeting notes,Daniel Reed,Medium,Completed,2026-01-29,2026-01-27,Phone,Yes,Requires management visibility
+OPS-0022,2026-01-27,Escalation,Resolve pending approval,Daniel Reed,High,Completed,2026-01-28,2026-01-27,Teams,Yes,Next review scheduled
+OPS-0023,2026-01-27,Escalation,Resolve pending approval,Owen Carter,Medium,Completed,2026-01-30,2026-01-29,Phone,No,Completed within target
+OPS-0024,2026-01-29,Executive Meeting,Send weekly status update,Aarav Mehta,High,Completed,2026-02-05,2026-02-05,Email,Yes,No blockers reported
+OPS-0025,2026-01-29,Executive Meeting,Share meeting notes,Aarav Mehta,High,Completed,2026-02-08,2026-02-06,Email,Yes,Next review scheduled
+OPS-0026,2026-01-30,Escalation,Update project tracker,Nina Patel,High,In Progress,2026-02-06,,Google Meet,No,Requires management visibility
+OPS-0027,2026-01-30,Planning,Prepare KPI summary,Owen Carter,Medium,Completed,2026-02-04,2026-02-02,Phone,No,Requires management visibility
+OPS-0028,2026-02-03,Internal Review,Update project tracker,Priya Shah,Low,In Progress,2026-02-06,,Teams,No,Follow-up added to weekly review
+OPS-0029,2026-02-04,Client Follow-up,Review open action items,Daniel Reed,Medium,In Progress,2026-02-11,,Teams,Yes,Requires management visibility
+OPS-0030,2026-02-04,Internal Review,Confirm client requirements,Daniel Reed,Medium,Completed,2026-02-06,2026-02-06,Email,Yes,Next review scheduled
+OPS-0031,2026-02-05,Executive Meeting,Review open action items,Nina Patel,Medium,Pending,2026-02-08,,Google Meet,No,Completed within target
+OPS-0032,2026-02-09,Executive Meeting,Prepare KPI summary,Maya Singh,Medium,In Progress,2026-02-10,,Email,Yes,Awaiting stakeholder confirmation
+OPS-0033,2026-02-10,Executive Meeting,Update project tracker,Owen Carter,Medium,Completed,2026-02-17,2026-02-16,Google Meet,Yes,Next review scheduled
+OPS-0034,2026-02-10,Executive Meeting,Send weekly status update,Daniel Reed,Medium,Pending,2026-02-12,,Teams,No,No blockers reported
+OPS-0035,2026-02-13,Planning,Resolve pending approval,Daniel Reed,Low,Completed,2026-02-23,2026-02-21,Phone,No,Next review scheduled
+OPS-0036,2026-02-13,Escalation,Review open action items,Owen Carter,Medium,Completed,2026-02-20,2026-02-20,Phone,No,No blockers reported
+OPS-0037,2026-02-14,Escalation,Schedule stakeholder follow-up,Nina Patel,High,Overdue,2026-02-24,,Google Meet,Yes,Awaiting stakeholder confirmation
+OPS-0038,2026-02-14,Escalation,Schedule stakeholder follow-up,Owen Carter,Medium,Completed,2026-02-17,2026-02-16,Phone,No,Completed within target
+OPS-0039,2026-02-14,Reporting,Schedule stakeholder follow-up,Maya Singh,Medium,Completed,2026-02-17,2026-02-15,Email,No,Completed within target
+OPS-0040,2026-02-15,Executive Meeting,Resolve pending approval,Priya Shah,Low,Completed,2026-02-20,2026-02-19,Teams,No,Requires management visibility
+OPS-0041,2026-02-17,Escalation,Confirm client requirements,Nina Patel,Low,Overdue,2026-02-24,,Email,No,Completed within target
+OPS-0042,2026-02-17,Escalation,Review open action items,Daniel Reed,Low,Pending,2026-02-22,,Teams,Yes,Follow-up added to weekly review
+OPS-0043,2026-02-21,Escalation,Prepare KPI summary,Nina Patel,Low,Completed,2026-03-03,2026-03-02,Teams,Yes,No blockers reported
+OPS-0044,2026-02-22,Reporting,Resolve pending approval,Priya Shah,Medium,Completed,2026-02-25,2026-02-23,Phone,No,Follow-up added to weekly review
+OPS-0045,2026-02-23,Executive Meeting,Confirm client requirements,Daniel Reed,High,Pending,2026-02-26,,Google Meet,No,Requires management visibility
+OPS-0046,2026-02-23,Client Follow-up,Share meeting notes,Nina Patel,High,Completed,2026-03-05,2026-03-04,Email,Yes,Follow-up added to weekly review
+OPS-0047,2026-02-23,Reporting,Confirm client requirements,Owen Carter,Medium,In Progress,2026-02-26,,Google Meet,No,Follow-up added to weekly review
+OPS-0048,2026-02-23,Client Follow-up,Send weekly status update,Aarav Mehta,Medium,Completed,2026-02-25,2026-02-25,Google Meet,Yes,Requires management visibility
+OPS-0049,2026-02-24,Escalation,Confirm client requirements,Owen Carter,Low,Completed,2026-02-25,2026-02-25,Phone,No,Next review scheduled
+OPS-0050,2026-02-25,Executive Meeting,Update project tracker,Priya Shah,High,Completed,2026-02-28,2026-02-26,Email,No,No blockers reported
+OPS-0051,2026-02-26,Client Follow-up,Confirm client requirements,Maya Singh,Medium,Overdue,2026-03-05,,Google Meet,Yes,Next review scheduled
+OPS-0052,2026-02-26,Internal Review,Share meeting notes,Nina Patel,Medium,Pending,2026-03-05,,Email,No,Completed within target
+OPS-0053,2026-02-27,Internal Review,Review open action items,Aarav Mehta,Medium,Completed,2026-03-02,2026-03-01,Teams,Yes,No blockers reported
+OPS-0054,2026-02-28,Internal Review,Resolve pending approval,Aarav Mehta,Low,Completed,2026-03-07,2026-03-07,Phone,Yes,Follow-up added to weekly review
+OPS-0055,2026-02-28,Executive Meeting,Prepare KPI summary,Daniel Reed,Medium,Completed,2026-03-01,2026-02-27,Teams,No,Awaiting stakeholder confirmation
+OPS-0056,2026-03-01,Reporting,Review open action items,Daniel Reed,Low,Pending,2026-03-11,,Phone,No,Next review scheduled
+OPS-0057,2026-03-03,Reporting,Review open action items,Priya Shah,High,Pending,2026-03-05,,Phone,Yes,Requires management visibility
+OPS-0058,2026-03-04,Planning,Share meeting notes,Priya Shah,Medium,Completed,2026-03-11,2026-03-10,Teams,No,Next review scheduled
+OPS-0059,2026-03-04,Escalation,Schedule stakeholder follow-up,Aarav Mehta,Low,In Progress,2026-03-09,,Teams,Yes,Completed within target
+OPS-0060,2026-03-04,Planning,Update project tracker,Aarav Mehta,Medium,Completed,2026-03-14,2026-03-13,Phone,No,Awaiting stakeholder confirmation
+OPS-0061,2026-03-05,Planning,Review open action items,Daniel Reed,Low,Pending,2026-03-06,,Teams,Yes,Requires management visibility
+OPS-0062,2026-03-06,Escalation,Schedule stakeholder follow-up,Aarav Mehta,Low,Completed,2026-03-09,2026-03-07,Teams,No,Completed within target
+OPS-0063,2026-03-06,Internal Review,Review open action items,Aarav Mehta,Medium,Completed,2026-03-16,2026-03-14,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0064,2026-03-06,Internal Review,Update project tracker,Maya Singh,Medium,Completed,2026-03-13,2026-03-12,Teams,No,Completed within target
+OPS-0065,2026-03-08,Executive Meeting,Review open action items,Priya Shah,Medium,Pending,2026-03-09,,Email,Yes,Awaiting stakeholder confirmation
+OPS-0066,2026-03-08,Reporting,Resolve pending approval,Nina Patel,Low,Completed,2026-03-13,2026-03-11,Teams,No,Requires management visibility
+OPS-0067,2026-03-09,Reporting,Resolve pending approval,Priya Shah,Low,Completed,2026-03-10,2026-03-09,Email,Yes,Awaiting stakeholder confirmation
+OPS-0068,2026-03-10,Internal Review,Confirm client requirements,Maya Singh,Medium,In Progress,2026-03-12,,Teams,No,Awaiting stakeholder confirmation
+OPS-0069,2026-03-10,Planning,Prepare KPI summary,Daniel Reed,Medium,Completed,2026-03-20,2026-03-19,Email,Yes,Next review scheduled
+OPS-0070,2026-03-13,Reporting,Share meeting notes,Daniel Reed,Low,In Progress,2026-03-18,,Google Meet,No,Follow-up added to weekly review
+OPS-0071,2026-03-13,Escalation,Confirm client requirements,Priya Shah,Medium,Completed,2026-03-16,2026-03-15,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0072,2026-03-14,Executive Meeting,Send weekly status update,Aarav Mehta,Medium,Completed,2026-03-16,2026-03-14,Teams,No,Awaiting stakeholder confirmation
+OPS-0073,2026-03-15,Executive Meeting,Review open action items,Aarav Mehta,Medium,In Progress,2026-03-20,,Google Meet,No,Next review scheduled
+OPS-0074,2026-03-16,Client Follow-up,Update project tracker,Aarav Mehta,High,In Progress,2026-03-26,,Email,No,Follow-up added to weekly review
+OPS-0075,2026-03-16,Executive Meeting,Share meeting notes,Nina Patel,High,Pending,2026-03-18,,Phone,Yes,Completed within target
+OPS-0076,2026-03-18,Escalation,Review open action items,Daniel Reed,High,Completed,2026-03-20,2026-03-18,Phone,No,Next review scheduled
+OPS-0077,2026-03-19,Executive Meeting,Resolve pending approval,Owen Carter,Low,Pending,2026-03-26,,Phone,Yes,No blockers reported
+OPS-0078,2026-03-20,Escalation,Prepare KPI summary,Nina Patel,Medium,Completed,2026-03-23,2026-03-21,Phone,No,Requires management visibility
+OPS-0079,2026-03-22,Escalation,Update project tracker,Nina Patel,High,Pending,2026-03-29,,Phone,Yes,Awaiting stakeholder confirmation
+OPS-0080,2026-03-23,Planning,Send weekly status update,Maya Singh,Low,In Progress,2026-03-30,,Teams,Yes,Follow-up added to weekly review
+OPS-0081,2026-03-24,Executive Meeting,Review open action items,Maya Singh,Medium,In Progress,2026-03-26,,Email,No,Next review scheduled
+OPS-0082,2026-03-25,Reporting,Send weekly status update,Priya Shah,High,Completed,2026-03-27,2026-03-25,Google Meet,Yes,No blockers reported
+OPS-0083,2026-03-25,Client Follow-up,Resolve pending approval,Daniel Reed,Low,Completed,2026-04-01,2026-03-30,Teams,Yes,Completed within target
+OPS-0084,2026-03-26,Planning,Confirm client requirements,Owen Carter,High,Completed,2026-03-27,2026-03-27,Google Meet,No,Requires management visibility
+OPS-0085,2026-03-26,Executive Meeting,Prepare KPI summary,Aarav Mehta,High,Overdue,2026-03-28,,Email,No,Requires management visibility
+OPS-0086,2026-03-26,Planning,Share meeting notes,Aarav Mehta,Medium,Completed,2026-03-29,2026-03-28,Email,Yes,Awaiting stakeholder confirmation
+OPS-0087,2026-03-27,Escalation,Send weekly status update,Priya Shah,Medium,Completed,2026-04-01,2026-03-30,Teams,No,No blockers reported
+OPS-0088,2026-03-28,Client Follow-up,Review open action items,Maya Singh,Medium,Completed,2026-03-29,2026-03-28,Email,No,Requires management visibility
+OPS-0089,2026-03-28,Reporting,Prepare KPI summary,Nina Patel,High,Completed,2026-04-07,2026-04-05,Phone,Yes,Next review scheduled
+OPS-0090,2026-03-29,Client Follow-up,Schedule stakeholder follow-up,Maya Singh,Medium,Completed,2026-03-31,2026-03-30,Teams,Yes,Awaiting stakeholder confirmation
+OPS-0091,2026-03-30,Escalation,Resolve pending approval,Priya Shah,Medium,Completed,2026-04-04,2026-04-04,Teams,Yes,Awaiting stakeholder confirmation
+OPS-0092,2026-03-31,Client Follow-up,Send weekly status update,Nina Patel,Medium,Completed,2026-04-10,2026-04-10,Phone,No,Completed within target
+OPS-0093,2026-04-01,Escalation,Send weekly status update,Daniel Reed,Medium,In Progress,2026-04-11,,Google Meet,Yes,Awaiting stakeholder confirmation
+OPS-0094,2026-04-02,Escalation,Review open action items,Nina Patel,Medium,Pending,2026-04-05,,Email,No,No blockers reported
+OPS-0095,2026-04-02,Reporting,Prepare KPI summary,Owen Carter,Low,Completed,2026-04-12,2026-04-12,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0096,2026-04-02,Planning,Update project tracker,Aarav Mehta,Medium,Completed,2026-04-05,2026-04-04,Email,No,Requires management visibility
+OPS-0097,2026-04-02,Reporting,Confirm client requirements,Nina Patel,Medium,Completed,2026-04-07,2026-04-07,Phone,No,No blockers reported
+OPS-0098,2026-04-03,Executive Meeting,Update project tracker,Daniel Reed,Medium,Completed,2026-04-10,2026-04-08,Google Meet,Yes,Follow-up added to weekly review
+OPS-0099,2026-04-04,Internal Review,Send weekly status update,Maya Singh,Medium,Completed,2026-04-11,2026-04-11,Phone,Yes,Requires management visibility
+OPS-0100,2026-04-04,Planning,Prepare KPI summary,Owen Carter,Medium,Completed,2026-04-07,2026-04-07,Phone,Yes,Follow-up added to weekly review
+OPS-0101,2026-04-05,Reporting,Prepare KPI summary,Daniel Reed,Medium,Completed,2026-04-12,2026-04-12,Teams,No,Completed within target
+OPS-0102,2026-04-06,Client Follow-up,Update project tracker,Aarav Mehta,High,Completed,2026-04-16,2026-04-16,Teams,No,No blockers reported
+OPS-0103,2026-04-06,Executive Meeting,Schedule stakeholder follow-up,Maya Singh,Medium,Pending,2026-04-11,,Phone,Yes,Awaiting stakeholder confirmation
+OPS-0104,2026-04-06,Internal Review,Schedule stakeholder follow-up,Maya Singh,High,In Progress,2026-04-16,,Google Meet,No,Next review scheduled
+OPS-0105,2026-04-07,Escalation,Prepare KPI summary,Nina Patel,Low,Completed,2026-04-12,2026-04-12,Google Meet,No,Next review scheduled
+OPS-0106,2026-04-07,Reporting,Send weekly status update,Maya Singh,Medium,Pending,2026-04-12,,Google Meet,No,Requires management visibility
+OPS-0107,2026-04-10,Reporting,Prepare KPI summary,Aarav Mehta,Medium,Completed,2026-04-15,2026-04-15,Email,Yes,Next review scheduled
+OPS-0108,2026-04-11,Internal Review,Share meeting notes,Nina Patel,Medium,In Progress,2026-04-13,,Email,No,Next review scheduled
+OPS-0109,2026-04-11,Client Follow-up,Resolve pending approval,Owen Carter,Medium,Completed,2026-04-13,2026-04-12,Phone,No,Next review scheduled
+OPS-0110,2026-04-12,Executive Meeting,Share meeting notes,Maya Singh,Medium,Pending,2026-04-22,,Phone,Yes,Requires management visibility
+OPS-0111,2026-04-12,Executive Meeting,Review open action items,Maya Singh,Medium,Completed,2026-04-15,2026-04-15,Email,Yes,No blockers reported
+OPS-0112,2026-04-12,Planning,Send weekly status update,Owen Carter,High,Completed,2026-04-14,2026-04-12,Phone,Yes,Requires management visibility
+OPS-0113,2026-04-13,Reporting,Resolve pending approval,Aarav Mehta,High,Completed,2026-04-23,2026-04-23,Google Meet,Yes,Requires management visibility
+OPS-0114,2026-04-13,Planning,Schedule stakeholder follow-up,Maya Singh,High,Completed,2026-04-14,2026-04-13,Phone,No,Completed within target
+OPS-0115,2026-04-17,Executive Meeting,Update project tracker,Maya Singh,High,Overdue,2026-04-27,,Phone,No,Next review scheduled
+OPS-0116,2026-04-21,Planning,Schedule stakeholder follow-up,Maya Singh,Medium,Completed,2026-04-24,2026-04-23,Google Meet,No,Follow-up added to weekly review
+OPS-0117,2026-04-21,Executive Meeting,Confirm client requirements,Nina Patel,Medium,In Progress,2026-04-26,,Teams,No,Follow-up added to weekly review
+OPS-0118,2026-04-22,Client Follow-up,Review open action items,Owen Carter,Low,Completed,2026-05-02,2026-05-01,Google Meet,No,Follow-up added to weekly review
+OPS-0119,2026-04-24,Escalation,Update project tracker,Priya Shah,Low,Completed,2026-04-25,2026-04-25,Email,No,Requires management visibility
+OPS-0120,2026-04-24,Reporting,Share meeting notes,Maya Singh,Low,Pending,2026-05-04,,Google Meet,No,Completed within target
+OPS-0121,2026-04-24,Planning,Update project tracker,Daniel Reed,Low,Completed,2026-05-04,2026-05-03,Email,Yes,Completed within target
+OPS-0122,2026-04-26,Escalation,Review open action items,Daniel Reed,High,Completed,2026-04-28,2026-04-26,Phone,Yes,No blockers reported
+OPS-0123,2026-04-27,Reporting,Update project tracker,Daniel Reed,Medium,Completed,2026-05-07,2026-05-06,Google Meet,No,Next review scheduled
+OPS-0124,2026-04-28,Client Follow-up,Send weekly status update,Aarav Mehta,Medium,Overdue,2026-05-05,,Phone,No,Next review scheduled
+OPS-0125,2026-04-28,Internal Review,Schedule stakeholder follow-up,Daniel Reed,Medium,Pending,2026-05-05,,Email,No,No blockers reported
+OPS-0126,2026-05-01,Planning,Confirm client requirements,Owen Carter,Medium,Completed,2026-05-08,2026-05-06,Google Meet,No,Follow-up added to weekly review
+OPS-0127,2026-05-01,Escalation,Share meeting notes,Owen Carter,Medium,Completed,2026-05-08,2026-05-06,Google Meet,No,Follow-up added to weekly review
+OPS-0128,2026-05-03,Internal Review,Prepare KPI summary,Priya Shah,Medium,In Progress,2026-05-13,,Email,No,Completed within target
+OPS-0129,2026-05-05,Escalation,Prepare KPI summary,Maya Singh,High,In Progress,2026-05-12,,Teams,No,Awaiting stakeholder confirmation
+OPS-0130,2026-05-06,Planning,Send weekly status update,Aarav Mehta,Low,Completed,2026-05-08,2026-05-07,Email,No,Next review scheduled
+OPS-0131,2026-05-07,Escalation,Prepare KPI summary,Daniel Reed,Medium,In Progress,2026-05-10,,Email,No,Requires management visibility
+OPS-0132,2026-05-08,Client Follow-up,Review open action items,Daniel Reed,Low,Completed,2026-05-15,2026-05-13,Phone,Yes,Requires management visibility
+OPS-0133,2026-05-08,Planning,Prepare KPI summary,Daniel Reed,Medium,Completed,2026-05-18,2026-05-17,Phone,Yes,Awaiting stakeholder confirmation
+OPS-0134,2026-05-08,Client Follow-up,Schedule stakeholder follow-up,Priya Shah,High,Pending,2026-05-10,,Teams,Yes,Completed within target
+OPS-0135,2026-05-12,Planning,Update project tracker,Priya Shah,Medium,In Progress,2026-05-15,,Email,No,No blockers reported
+OPS-0136,2026-05-12,Internal Review,Review open action items,Priya Shah,Medium,Completed,2026-05-15,2026-05-13,Email,No,Requires management visibility
+OPS-0137,2026-05-12,Planning,Schedule stakeholder follow-up,Daniel Reed,Medium,In Progress,2026-05-14,,Teams,No,Completed within target
+OPS-0138,2026-05-14,Reporting,Share meeting notes,Maya Singh,Low,Pending,2026-05-16,,Email,Yes,Requires management visibility
+OPS-0139,2026-05-15,Planning,Send weekly status update,Nina Patel,High,Completed,2026-05-17,2026-05-17,Teams,Yes,Follow-up added to weekly review
+OPS-0140,2026-05-16,Internal Review,Review open action items,Nina Patel,High,Completed,2026-05-17,2026-05-16,Email,Yes,Next review scheduled
+OPS-0141,2026-05-19,Executive Meeting,Schedule stakeholder follow-up,Maya Singh,Low,Completed,2026-05-24,2026-05-24,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0142,2026-05-19,Escalation,Resolve pending approval,Priya Shah,Low,Completed,2026-05-22,2026-05-21,Email,No,Completed within target
+OPS-0143,2026-05-21,Reporting,Send weekly status update,Aarav Mehta,High,Pending,2026-05-23,,Teams,No,No blockers reported
+OPS-0144,2026-05-21,Planning,Confirm client requirements,Nina Patel,Medium,Completed,2026-05-28,2026-05-26,Email,No,Completed within target
+OPS-0145,2026-05-22,Executive Meeting,Prepare KPI summary,Nina Patel,Medium,Completed,2026-05-23,2026-05-21,Email,Yes,Completed within target
+OPS-0146,2026-05-25,Reporting,Send weekly status update,Owen Carter,High,Pending,2026-05-30,,Google Meet,No,Completed within target
+OPS-0147,2026-05-25,Executive Meeting,Schedule stakeholder follow-up,Priya Shah,Low,Completed,2026-05-28,2026-05-28,Google Meet,No,Next review scheduled
+OPS-0148,2026-05-26,Escalation,Confirm client requirements,Nina Patel,High,In Progress,2026-06-05,,Phone,No,No blockers reported
+OPS-0149,2026-05-27,Client Follow-up,Schedule stakeholder follow-up,Maya Singh,Medium,Pending,2026-05-28,,Google Meet,Yes,No blockers reported
+OPS-0150,2026-05-29,Planning,Prepare KPI summary,Daniel Reed,Medium,In Progress,2026-06-03,,Google Meet,Yes,Completed within target
+OPS-0151,2026-05-31,Escalation,Schedule stakeholder follow-up,Priya Shah,Medium,Completed,2026-06-10,2026-06-09,Email,No,Next review scheduled
+OPS-0152,2026-06-02,Internal Review,Resolve pending approval,Aarav Mehta,Medium,Overdue,2026-06-04,,Email,No,No blockers reported
+OPS-0153,2026-06-02,Reporting,Prepare KPI summary,Owen Carter,Medium,In Progress,2026-06-09,,Phone,Yes,No blockers reported
+OPS-0154,2026-06-02,Client Follow-up,Update project tracker,Nina Patel,Medium,Completed,2026-06-09,2026-06-08,Phone,No,Awaiting stakeholder confirmation
+OPS-0155,2026-06-05,Client Follow-up,Resolve pending approval,Maya Singh,Low,Completed,2026-06-10,2026-06-08,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0156,2026-06-05,Internal Review,Review open action items,Maya Singh,Medium,Completed,2026-06-10,2026-06-08,Email,No,Completed within target
+OPS-0157,2026-06-07,Executive Meeting,Confirm client requirements,Daniel Reed,Medium,In Progress,2026-06-10,,Phone,No,Next review scheduled
+OPS-0158,2026-06-07,Executive Meeting,Send weekly status update,Nina Patel,Medium,Completed,2026-06-14,2026-06-12,Email,No,Awaiting stakeholder confirmation
+OPS-0159,2026-06-08,Planning,Share meeting notes,Daniel Reed,Medium,Completed,2026-06-11,2026-06-10,Phone,Yes,Awaiting stakeholder confirmation
+OPS-0160,2026-06-08,Client Follow-up,Share meeting notes,Priya Shah,Medium,Completed,2026-06-10,2026-06-09,Phone,No,Completed within target
+OPS-0161,2026-06-09,Escalation,Resolve pending approval,Nina Patel,Medium,Completed,2026-06-10,2026-06-10,Phone,No,Awaiting stakeholder confirmation
+OPS-0162,2026-06-10,Reporting,Update project tracker,Nina Patel,Low,Completed,2026-06-12,2026-06-10,Email,No,Follow-up added to weekly review
+OPS-0163,2026-06-11,Planning,Review open action items,Nina Patel,Medium,Pending,2026-06-13,,Teams,Yes,Requires management visibility
+OPS-0164,2026-06-11,Reporting,Review open action items,Nina Patel,Low,Completed,2026-06-12,2026-06-11,Phone,Yes,Follow-up added to weekly review
+OPS-0165,2026-06-13,Planning,Send weekly status update,Daniel Reed,Low,Overdue,2026-06-15,,Phone,Yes,Completed within target
+OPS-0166,2026-06-14,Internal Review,Send weekly status update,Daniel Reed,High,Completed,2026-06-19,2026-06-18,Google Meet,No,Requires management visibility
+OPS-0167,2026-06-15,Executive Meeting,Confirm client requirements,Daniel Reed,Medium,Pending,2026-06-25,,Email,No,Awaiting stakeholder confirmation
+OPS-0168,2026-06-15,Internal Review,Share meeting notes,Maya Singh,Medium,Completed,2026-06-22,2026-06-20,Teams,No,Awaiting stakeholder confirmation
+OPS-0169,2026-06-17,Internal Review,Update project tracker,Daniel Reed,Medium,Completed,2026-06-22,2026-06-22,Google Meet,Yes,No blockers reported
+OPS-0170,2026-06-17,Reporting,Confirm client requirements,Aarav Mehta,Low,In Progress,2026-06-27,,Phone,Yes,No blockers reported
+OPS-0171,2026-06-20,Escalation,Schedule stakeholder follow-up,Priya Shah,High,Pending,2026-06-30,,Email,No,Awaiting stakeholder confirmation
+OPS-0172,2026-06-20,Reporting,Send weekly status update,Nina Patel,Medium,Completed,2026-06-21,2026-06-21,Phone,Yes,Next review scheduled
+OPS-0173,2026-06-21,Internal Review,Resolve pending approval,Daniel Reed,Low,Pending,2026-06-26,,Email,No,Follow-up added to weekly review
+OPS-0174,2026-06-22,Reporting,Update project tracker,Daniel Reed,Low,Completed,2026-06-29,2026-06-27,Phone,Yes,Completed within target
+OPS-0175,2026-06-23,Planning,Review open action items,Maya Singh,Medium,In Progress,2026-06-25,,Teams,No,Requires management visibility
+OPS-0176,2026-06-23,Executive Meeting,Share meeting notes,Daniel Reed,Medium,In Progress,2026-07-03,,Phone,No,Follow-up added to weekly review
+OPS-0177,2026-06-23,Planning,Confirm client requirements,Daniel Reed,Low,Completed,2026-06-24,2026-06-22,Teams,No,Requires management visibility
+OPS-0178,2026-06-26,Client Follow-up,Send weekly status update,Owen Carter,Low,Pending,2026-07-03,,Teams,No,Follow-up added to weekly review
+OPS-0179,2026-06-26,Escalation,Update project tracker,Maya Singh,High,Completed,2026-07-01,2026-06-30,Google Meet,No,Requires management visibility
+OPS-0180,2026-06-26,Reporting,Confirm client requirements,Priya Shah,Medium,Completed,2026-06-27,2026-06-25,Phone,No,Next review scheduled
+OPS-0181,2026-06-28,Client Follow-up,Update project tracker,Maya Singh,High,Completed,2026-07-01,2026-06-30,Teams,No,Next review scheduled
+OPS-0182,2026-06-29,Planning,Prepare KPI summary,Maya Singh,Medium,Completed,2026-07-04,2026-07-03,Teams,Yes,Completed within target
+OPS-0183,2026-06-30,Reporting,Review open action items,Maya Singh,High,In Progress,2026-07-01,,Email,No,Awaiting stakeholder confirmation
+OPS-0184,2026-07-01,Executive Meeting,Send weekly status update,Aarav Mehta,High,Overdue,2026-07-06,,Email,No,Awaiting stakeholder confirmation
+OPS-0185,2026-07-01,Escalation,Confirm client requirements,Aarav Mehta,Medium,Completed,2026-07-06,2026-07-05,Teams,No,Completed within target
+OPS-0186,2026-07-02,Client Follow-up,Update project tracker,Nina Patel,Medium,Pending,2026-07-12,,Phone,Yes,Completed within target
+OPS-0187,2026-07-02,Reporting,Schedule stakeholder follow-up,Daniel Reed,Low,Completed,2026-07-12,2026-07-10,Phone,Yes,Next review scheduled
+OPS-0188,2026-07-03,Escalation,Share meeting notes,Owen Carter,Low,Completed,2026-07-04,2026-07-04,Teams,Yes,No blockers reported
+OPS-0189,2026-07-03,Reporting,Schedule stakeholder follow-up,Priya Shah,Medium,Pending,2026-07-10,,Google Meet,No,No blockers reported
+OPS-0190,2026-07-04,Escalation,Send weekly status update,Aarav Mehta,Medium,In Progress,2026-07-06,,Teams,Yes,Awaiting stakeholder confirmation
+OPS-0191,2026-07-05,Escalation,Confirm client requirements,Maya Singh,Medium,In Progress,2026-07-10,,Teams,Yes,No blockers reported
+OPS-0192,2026-07-05,Internal Review,Confirm client requirements,Maya Singh,Medium,Completed,2026-07-10,2026-07-08,Phone,No,Requires management visibility
+OPS-0193,2026-07-05,Reporting,Resolve pending approval,Maya Singh,Medium,Completed,2026-07-07,2026-07-05,Teams,No,No blockers reported
+OPS-0194,2026-07-07,Reporting,Update project tracker,Priya Shah,High,Pending,2026-07-14,,Teams,Yes,Completed within target
+OPS-0195,2026-07-10,Internal Review,Resolve pending approval,Daniel Reed,Low,Pending,2026-07-13,,Email,No,Follow-up added to weekly review
+OPS-0196,2026-07-12,Executive Meeting,Confirm client requirements,Aarav Mehta,High,In Progress,2026-07-14,,Google Meet,Yes,Next review scheduled
+OPS-0197,2026-07-13,Escalation,Review open action items,Daniel Reed,Low,In Progress,2026-07-14,,Phone,No,Next review scheduled
+OPS-0198,2026-07-13,Executive Meeting,Share meeting notes,Maya Singh,High,Completed,2026-07-16,2026-07-14,Phone,No,No blockers reported
+OPS-0199,2026-07-16,Reporting,Confirm client requirements,Maya Singh,Medium,Completed,2026-07-21,2026-07-20,Teams,No,Next review scheduled
+OPS-0200,2026-07-16,Planning,Prepare KPI summary,Daniel Reed,High,Completed,2026-07-26,2026-07-25,Phone,No,Completed within target
+OPS-0201,2026-07-17,Planning,Send weekly status update,Nina Patel,Medium,Completed,2026-07-27,2026-07-26,Teams,No,Completed within target
+OPS-0202,2026-07-18,Escalation,Prepare KPI summary,Aarav Mehta,Low,In Progress,2026-07-21,,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0203,2026-07-22,Client Follow-up,Confirm client requirements,Priya Shah,Medium,Overdue,2026-07-24,,Phone,Yes,Requires management visibility
+OPS-0204,2026-07-23,Executive Meeting,Schedule stakeholder follow-up,Owen Carter,Medium,In Progress,2026-07-25,,Google Meet,No,Follow-up added to weekly review
+OPS-0205,2026-07-23,Internal Review,Send weekly status update,Owen Carter,Low,Completed,2026-07-28,2026-07-27,Teams,No,No blockers reported
+OPS-0206,2026-07-24,Client Follow-up,Prepare KPI summary,Maya Singh,Medium,Pending,2026-07-31,,Phone,No,No blockers reported
+OPS-0207,2026-07-24,Client Follow-up,Send weekly status update,Maya Singh,Low,Completed,2026-07-26,2026-07-26,Phone,Yes,Next review scheduled
+OPS-0208,2026-07-27,Executive Meeting,Confirm client requirements,Daniel Reed,Medium,Completed,2026-08-06,2026-08-04,Phone,Yes,Completed within target
+OPS-0209,2026-07-28,Executive Meeting,Update project tracker,Aarav Mehta,Medium,Completed,2026-07-31,2026-07-29,Google Meet,No,No blockers reported
+OPS-0210,2026-07-29,Escalation,Prepare KPI summary,Owen Carter,Medium,Completed,2026-07-31,2026-07-29,Teams,No,Next review scheduled
+OPS-0211,2026-07-30,Reporting,Update project tracker,Priya Shah,High,In Progress,2026-08-01,,Phone,No,Follow-up added to weekly review
+OPS-0212,2026-07-31,Planning,Share meeting notes,Priya Shah,Medium,Pending,2026-08-03,,Teams,No,No blockers reported
+OPS-0213,2026-07-31,Client Follow-up,Share meeting notes,Owen Carter,High,Completed,2026-08-02,2026-08-02,Teams,No,Next review scheduled
+OPS-0214,2026-08-01,Escalation,Prepare KPI summary,Daniel Reed,High,In Progress,2026-08-08,,Teams,No,Next review scheduled
+OPS-0215,2026-08-02,Planning,Confirm client requirements,Priya Shah,Medium,Completed,2026-08-03,2026-08-03,Phone,Yes,Requires management visibility
+OPS-0216,2026-08-05,Planning,Prepare KPI summary,Priya Shah,Medium,Overdue,2026-08-08,,Teams,No,Next review scheduled
+OPS-0217,2026-08-05,Escalation,Review open action items,Aarav Mehta,High,Completed,2026-08-10,2026-08-09,Phone,Yes,Awaiting stakeholder confirmation
+OPS-0218,2026-08-06,Reporting,Resolve pending approval,Nina Patel,High,Completed,2026-08-09,2026-08-07,Teams,Yes,Awaiting stakeholder confirmation
+OPS-0219,2026-08-07,Escalation,Update project tracker,Owen Carter,Medium,Completed,2026-08-14,2026-08-12,Email,No,No blockers reported
+OPS-0220,2026-08-07,Reporting,Share meeting notes,Nina Patel,Low,In Progress,2026-08-08,,Google Meet,No,Awaiting stakeholder confirmation
+OPS-0221,2026-08-09,Planning,Confirm client requirements,Priya Shah,Low,Completed,2026-08-11,2026-08-10,Email,No,Next review scheduled
+OPS-0222,2026-08-09,Client Follow-up,Share meeting notes,Daniel Reed,Low,Completed,2026-08-11,2026-08-09,Phone,Yes,No blockers reported
+OPS-0223,2026-08-16,Client Follow-up,Resolve pending approval,Priya Shah,Low,Completed,2026-08-17,2026-08-15,Phone,No,Requires management visibility
+OPS-0224,2026-08-18,Client Follow-up,Update project tracker,Owen Carter,Medium,Completed,2026-08-23,2026-08-21,Phone,No,Follow-up added to weekly review
+OPS-0225,2026-08-18,Executive Meeting,Review open action items,Owen Carter,Medium,In Progress,2026-08-23,,Google Meet,No,Next review scheduled
+OPS-0226,2026-08-19,Client Follow-up,Update project tracker,Daniel Reed,High,Completed,2026-08-26,2026-08-24,Email,No,Awaiting stakeholder confirmation
+OPS-0227,2026-08-21,Reporting,Send weekly status update,Daniel Reed,High,Completed,2026-08-28,2026-08-26,Email,No,Awaiting stakeholder confirmation
+OPS-0228,2026-08-21,Client Follow-up,Share meeting notes,Owen Carter,Medium,Completed,2026-08-28,2026-08-27,Google Meet,No,Next review scheduled
+OPS-0229,2026-08-23,Planning,Resolve pending approval,Nina Patel,Low,Completed,2026-08-24,2026-08-24,Phone,Yes,No blockers reported
+OPS-0230,2026-08-24,Internal Review,Send weekly status update,Priya Shah,Medium,Completed,2026-08-25,2026-08-23,Google Meet,No,Next review scheduled
+OPS-0231,2026-08-24,Client Follow-up,Review open action items,Aarav Mehta,Low,Completed,2026-08-26,2026-08-25,Phone,Yes,Completed within target
+OPS-0232,2026-08-26,Internal Review,Review open action items,Aarav Mehta,Medium,Completed,2026-08-31,2026-08-30,Google Meet,No,Follow-up added to weekly review
+OPS-0233,2026-08-27,Reporting,Send weekly status update,Priya Shah,Low,Completed,2026-08-30,2026-08-29,Phone,No,Follow-up added to weekly review
+OPS-0234,2026-08-29,Escalation,Confirm client requirements,Priya Shah,Medium,Completed,2026-09-08,2026-09-08,Teams,Yes,Awaiting stakeholder confirmation
+OPS-0235,2026-08-30,Planning,Schedule stakeholder follow-up,Maya Singh,Medium,Completed,2026-09-01,2026-08-30,Email,No,Awaiting stakeholder confirmation
+OPS-0236,2026-09-01,Planning,Prepare KPI summary,Aarav Mehta,High,Completed,2026-09-11,2026-09-11,Teams,No,Awaiting stakeholder confirmation
+OPS-0237,2026-09-02,Planning,Review open action items,Nina Patel,Medium,Completed,2026-09-09,2026-09-08,Teams,No,Follow-up added to weekly review
+OPS-0238,2026-09-03,Escalation,Update project tracker,Nina Patel,High,Completed,2026-09-08,2026-09-08,Teams,Yes,Requires management visibility
+OPS-0239,2026-09-05,Planning,Share meeting notes,Maya Singh,High,Completed,2026-09-15,2026-09-13,Phone,Yes,Requires management visibility
+OPS-0240,2026-09-05,Executive Meeting,Update project tracker,Daniel Reed,Medium,Completed,2026-09-07,2026-09-06,Teams,No,No blockers reported
+OPS-0241,2026-09-06,Planning,Confirm client requirements,Maya Singh,Medium,Completed,2026-09-07,2026-09-07,Phone,Yes,Requires management visibility
+OPS-0242,2026-09-07,Planning,Review open action items,Nina Patel,Medium,Completed,2026-09-12,2026-09-11,Teams,No,Requires management visibility
+OPS-0243,2026-09-08,Client Follow-up,Resolve pending approval,Owen Carter,Medium,Completed,2026-09-15,2026-09-15,Email,Yes,No blockers reported
+OPS-0244,2026-09-08,Reporting,Schedule stakeholder follow-up,Nina Patel,Medium,Completed,2026-09-15,2026-09-15,Email,Yes,Requires management visibility
+OPS-0245,2026-09-08,Client Follow-up,Send weekly status update,Priya Shah,Low,Completed,2026-09-18,2026-09-18,Email,Yes,Awaiting stakeholder confirmation
+OPS-0246,2026-09-09,Internal Review,Update project tracker,Daniel Reed,Medium,Pending,2026-09-11,,Teams,Yes,No blockers reported
+OPS-0247,2026-09-09,Reporting,Confirm client requirements,Priya Shah,Medium,In Progress,2026-09-12,,Google Meet,No,No blockers reported
+OPS-0248,2026-09-10,Escalation,Resolve pending approval,Maya Singh,Low,Completed,2026-09-11,2026-09-11,Teams,No,Requires management visibility
+OPS-0249,2026-09-10,Planning,Resolve pending approval,Nina Patel,Low,In Progress,2026-09-11,,Phone,No,Requires management visibility
+OPS-0250,2026-09-10,Planning,Update project tracker,Owen Carter,Medium,Completed,2026-09-11,2026-09-11,Email,No,Completed within target
