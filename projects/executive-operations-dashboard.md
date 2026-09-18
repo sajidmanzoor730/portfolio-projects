@@ -18,4 +18,4 @@ Excel
 Fictional demonstration data.
 
 ## File
-See `files/Sajid_Operations_Portfolio.xlsx`.
+See `files/Sajid_Operations_Portfolio.xlsx`
