@@ -1,9 +1,9 @@
 # Lead Follow-up Pipeline
 
-## Purpose
-A sample pipeline for keeping lead stages, owners, priorities, follow-up dates, and next actions visible.
+## 🎯 Business Problem
+A lead pipeline is useful only when ownership, priority, follow-up dates, and next actions are visible and consistently maintained.
 
-## What it demonstrates
+## 📊 What It Shows
 - Lead-stage tracking
 - Follow-up scheduling
 - Owner assignment
@@ -11,8 +11,11 @@ A sample pipeline for keeping lead stages, owners, priorities, follow-up dates, 
 - Next-action tracking
 - Pipeline visibility
 
-## Tools
-CRM concepts, Excel
+## 🧠 Workflow
+**Lead intake → stage assignment → owner → follow-up date → next action → pipeline review**
 
-## Data
+## 🛠️ Tools
+CRM concepts · Excel
+
+## 📁 Data
 Fictional demonstration data.
