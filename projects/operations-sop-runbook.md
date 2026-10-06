@@ -1,9 +1,9 @@
 # Operations SOP & Runbook
 
-## Purpose
-A sample runbook showing how recurring operational processes can be documented and followed consistently by a remote team.
+## 🎯 Business Problem
+Recurring operational work becomes inconsistent when ownership, steps, escalation rules, and handoffs are not documented clearly.
 
-## What it demonstrates
+## 📋 What It Shows
 - New-user onboarding
 - Access-management steps
 - Recurring operational checks
@@ -11,11 +11,14 @@ A sample runbook showing how recurring operational processes can be documented a
 - Ownership and handoffs
 - Documentation standards
 
-## Tools
-Notion concepts, SOP documentation
+## 🧠 Process
+**Trigger → documented steps → owner → validation → escalation when required → completion**
 
-## Data
+## 🛠️ Tools
+Notion concepts · SOP documentation
+
+## 📁 Data
 Fictional demonstration process.
 
-## Documentation
+## 📄 Documentation
 See `files/03_Operations_SOP_Runbook.docx`.
