@@ -1,17 +1,20 @@
 # Python & Bash Automation
 
-## Purpose
-Small demonstration utilities for recurring system checks and log review using local/sample data.
+## 🎯 Business Problem
+Small repetitive system checks can consume time when they are performed manually.
 
-## What it demonstrates
+## ⚙️ What It Shows
 - Basic health checks
 - Log inspection
 - Repeatable command-line tasks
 - Lightweight automation
 - Reducing repetitive manual checks
 
-## Tools
-Python, Bash
+## 🧠 Workflow
+**Input → automated check → result → repeatable operational action**
 
-## Data
+## 🛠️ Tools
+Python · Bash
+
+## 📁 Data
 Local/sample demonstration data only.
