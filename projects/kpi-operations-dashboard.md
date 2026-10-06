@@ -1,18 +1,26 @@
 # KPI Operations Dashboard
 
-## Purpose
-A sample reporting dashboard for monitoring operational completion, QA accuracy, SLA achievement, and status.
+## 🎯 Business Problem
+Operational teams need a simple way to monitor whether work is being completed accurately and within SLA.
 
-## What it demonstrates
-- KPI tracking
-- Completion reporting
+This demonstration shows how recurring operational data can be turned into a compact KPI reporting workflow.
+
+## 📊 What It Shows
+- Completion rate tracking
 - QA accuracy monitoring
-- SLA reporting
-- Status visibility
-- Trend-oriented reporting
+- SLA achievement
+- Status distribution
+- Performance trends
+- KPI-focused reporting
 
-## Tools
-Excel, PivotTables
+## 🧠 Analyst Workflow
+**Source data → KPI definitions → PivotTable analysis → reporting → performance review**
 
-## Data
+## 🛠️ Tools
+Excel · PivotTables
+
+## 📁 Data
 Fictional demonstration data.
+
+## 🔗 Portfolio
+https://sajidmanzoor730.github.io/sajid-portfolio/kpi-operations-dashboard.html
