@@ -9,10 +9,11 @@ https://sajidmanzoor730.github.io/sajid-portfolio/
 
 ## What is in this repository
 
-These projects demonstrate supporting skills around operational reporting, CRM data quality, process documentation, workflow tracking, and automation.
+These projects demonstrate supporting skills around operational reporting, CRM data quality, process documentation, workflow tracking, and automation. Reproducible source code and project datasets for the NYC 311 analysis and CRM Data Quality work are organized under `projects/`.
 
 - **KPI Operations Dashboard** — Excel, PivotTables, KPI reporting
-- **CRM Data Quality & Cleanup** — data cleaning, duplicate review, validation
+- **CRM Data Quality & Cleanup** — data cleaning, duplicate review, validation ([source, code and synthetic datasets](projects/crm-data-quality/README.md))
+- **NYC 311 Service Analysis** — public NYC Open Data, Python cleaning, SQL analysis, data-quality checks and result tables ([project source](projects/nyc-311-service-analysis/README.md))
 - **Executive Operations Dashboard** — operational reporting and KPI tracking
 - **Lead Follow-up Pipeline** — workflow and pipeline tracking
 - **Operations SOP Runbook** — process documentation and standardization
@@ -31,6 +32,6 @@ For Data Analyst applications, these are the projects I want recruiters to revie
 - **Data Analyst Portfolio**  
   https://sajidmanzoor730.github.io/sajid-portfolio/
 
-> Demonstration datasets in this repository are fictional/sample data and are not from real clients.
+> CRM datasets are synthetic and use reserved `.example` email addresses. NYC 311 results are based on a dated public-data extract documented in that project; refresh the extract before treating the figures as current. No real customer or employer data is included.
 
 Built by Sajid Manzoor
