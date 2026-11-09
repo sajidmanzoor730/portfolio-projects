@@ -12,8 +12,8 @@ https://sajidmanzoor730.github.io/sajid-portfolio/
 These projects demonstrate supporting skills around operational reporting, CRM data quality, process documentation, workflow tracking, and automation. Reproducible source code and project datasets for the NYC 311 analysis and CRM Data Quality work are organized under `projects/`.
 
 - **KPI Operations Dashboard** — Excel, PivotTables, KPI reporting
-- **CRM Data Quality & Cleanup** — data cleaning, duplicate review, validation ([source, code and synthetic datasets](projects/crm-data-quality/README.md))
-- **NYC 311 Service Analysis** — public NYC Open Data, Python cleaning, SQL analysis, data-quality checks and result tables ([project source](projects/nyc-311-service-analysis/README.md))
+- **CRM Data Quality & Cleanup** — data cleaning, duplicate review, validation ([standalone repository](https://github.com/sajidmanzoor730/crm-data-quality) · [source folder](projects/crm-data-quality/README.md))
+- **NYC 311 Service Analysis** — public NYC Open Data, Python cleaning, SQL analysis, data-quality checks and result tables ([standalone repository](https://github.com/sajidmanzoor730/nyc-311-service-analysis) · [source folder](projects/nyc-311-service-analysis/README.md))
 - **Executive Operations Dashboard** — operational reporting and KPI tracking
 - **Lead Follow-up Pipeline** — workflow and pipeline tracking
 - **Operations SOP Runbook** — process documentation and standardization
